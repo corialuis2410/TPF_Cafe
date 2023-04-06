@@ -9,6 +9,7 @@
 }
 a {
     text-decoration: none;
+    color: whitesmoke;
 }
 ul {
     list-style: none;
@@ -21,10 +22,9 @@ ul {
 }
 body , html {
     overflow-x: hidden;
-
 }
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -256,6 +256,9 @@ p {
 }
 
 /* Animaciones*/
+html {
+    scroll-behavior: smooth;
+}
 img {
     transition: transform .3s ease;
 }
