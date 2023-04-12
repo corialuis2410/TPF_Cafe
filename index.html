@@ -24,8 +24,7 @@
             <li><a href="#aboutUs">Sobre nosotros</a></li>
             <li><a href="#ourMenu">Menu</a></li>
             <li><a href="#promos">Promos</a></li>
-            <li><a href="#reservas">Reservas</a></li>
-            <li class="ctn"><a  href="#">Contacto</a></li>
+            <li class="ctn"><a  href="#contacto">Contacto</a></li>
         </ul>
         <img src="/img/menu-btn.png" alt="" class="menu-btn">
     </nav>
@@ -81,9 +80,9 @@
             <section class="promos" id="promos">
                 <div class="row">
                     <div class="col content-col">
-                        <h2>Descuentos</h2>
+                        <h2>Tenemos Promos!</h2>
                         <div class="line"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum adipisci delectus quae beatae nulla, rem error fugit aperiam, temporibus modi excepturi incidunt placeat unde eos fuga. Ipsa, consequatur dolor?</p>
+                        <p>En ésta sección, te contamos sobre las Promos vigentes y los geniales descuentos que podés conseguir en nuestro local!</p>
                     </div>
                     <div class="col image-col">
                         <div class="promo-gallery">
@@ -96,20 +95,41 @@
                 </div>
             </section>
 
-            <section class="reservas" id="reservas">
+            <section class="contacto" id="contacto">
                 <div class="row">
                     <div class="col content-col">
-                        <h2>Reservas</h2>
+                        <h2>Escribinos</h2>
                         <div class="line"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum adipisci delectus quae beatae nulla, rem error fugit aperiam, temporibus modi excepturi incidunt placeat unde eos fuga. Ipsa, consequatur dolor?</p>
+                        <p>Hacete amigo y dejanos tu mensaje, consulta o comentario. Haremos lo posible para contestarte a la brevedad.</p>
                     </div>
-                    <div class="col image-col">
-                        <div class="promo-gallery">
-                            <img src="/img/promo1.png" alt="">
-                            <img src="/img/promo2.png" alt="">
-                            <img src="/img/promo3.png" alt="">
-                            <img src="/img/promo4.png" alt="">
-                        </div>
+                    <div class="col form-col">
+                        <form>
+                            <p>
+                                <label for="nombre" class="colocar_nombre">Nombre
+                                    <span class="obligatorio">*</span>
+                                </label>
+                                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+                            <p>
+                            <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                            </p>
+                    
+                            <p>
+                            <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                            </label>                     
+                                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                            </p>                    
+                        
+                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+            
+                            <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>          
+                            </form>
                     </div>
                 </div>
             </section>
