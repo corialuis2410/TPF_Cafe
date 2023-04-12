@@ -144,11 +144,7 @@ p {
 .ourMenu {
     width: 100%;
     height: 100vh;
-<<<<<<< HEAD
-    background-image: url('/img/-la-taza.webp');
-=======
-    background-image: url('img/interiorBlur2.png');
->>>>>>> c7eff7f1a75a3a9e8c5038ab4830348bd0aa2838
+    background-image: url('img/-la-taza.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,11 +154,11 @@ p {
 .ourMenu-content {
     width: 40%;
     padding: 70px;
-    color:whitesmoke;
+    color: whitesmokeourMenu-content;
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 3vmin;
+    font-size: 4vmin;
     padding: 100
 }
 .ourMenu-content h2 {
@@ -451,10 +447,9 @@ img:hover {
     color:#fc036b;
     box-shadow: 2px 2px 5px black;
 }
-<<<<<<< HEAD
 .ourMenu-content h2 {color:red; text-shadow: 3px 3px black;}
 .ourMenu-content h3 {color:red; text-shadow: 3px 3px black;}
 .ourMenu-content h4 {color:red; text-shadow: 3px 3px black;}
 .ourMenu-content { text-shadow: 3px 3px black;}
-=======
->>>>>>> c7eff7f1a75a3a9e8c5038ab4830348bd0aa2838
+.ourMenu-content span { color: whitesmoke; }
+.ourMenu-content ul { color: whitesmoke;}
