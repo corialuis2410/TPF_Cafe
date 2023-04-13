@@ -38,29 +38,36 @@
 <br>
 <br>
     <div class="container mt-3">
-        <h2>Login</h2>
-        <form action="logueado.html">
-          <div class="mb-3 mt-3">   
-            <label for="email"></label>
-            <input type="email" class="form-control" id="email" required placeholder="E-mail" name="email" style="width: 35%;">
-        </div>
-          <div class="mb-3">
-            <label for="pwd"></label>
-            <input type="password" class="form-control" id="pwd" required placeholder="Password" name="pswd" style="width: 35%;">
-          </div>
+      <div class="row">
+        <div class="col-6">
+            <h2>Login</h2>
+            <form action="logueado.html">
+              <div class="mb-3"> 
+                <label for="email"></label>
+                <input type="email" class="form-control" id="email" required placeholder="E-mail" name="email">
+              </div> 
+              <div class="mb-3">
+                <label for="pwd"></label>
+                <input type="password" class="form-control" id="pwd" required placeholder="Password" name="pswd">
+              </div>
+              
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> Recuerdame
+                </label>
+              </div>
           
-          <div class="form-check mb-3">
-            <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" name="remember"> Recuerdame
-            </label>
-          </div>
-      
-          <div class="d-grid gap col-6">
-          <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
-          <button type="reset" class="btn btn-primary" id="btnLimpiar">Limpiar</button>
-        </div>
+              <div class="d-grid gap col-4">
+              <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
+              <button type="reset" class="btn btn-primary" id="btnLimpiar">Limpiar</button>
+            </div>
 
-        </form>
+            </form>
+          </div>
+          <div class="col-6">
+            <img src="/img/preparando-cafe.jpg" alt="imagen-login" class="img-fluid">
+          </div>
+        </div>
       </div>
 
     </body>

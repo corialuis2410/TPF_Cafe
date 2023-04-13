@@ -371,6 +371,7 @@ input{
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 
 
+
 /* Dispositivos moviles max-width:850px */ 
 @media only screen and (max-width:850px){
     .menu-btn {
@@ -453,3 +454,7 @@ img:hover {
 .ourMenu-content { text-shadow: 3px 3px black;}
 .ourMenu-content span { color: whitesmoke; }
 .ourMenu-content ul { color: whitesmoke;}
+
+.image-login {
+    max-width: 50%;
+}
