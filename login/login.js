@@ -8,6 +8,6 @@ $("#btnLimpiar").click(limpiar);
 const Enviar = () => {
     $select.submit();
   };
-$("#btnEnviar").click(Enviar);
+/* $("#btnEnviar").click(Enviar);
 alert("Bienvenido Usuario")
-  });
+  });*/
