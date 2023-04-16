@@ -1,12 +1,15 @@
 $(document).ready(function () {
     const $select = $("#email");
 
+const limpiar = () => {$select.empty();
+
 $("#btnLimpiar").click(limpiar);
-    const limpiar = () => {$select.empty();
+   
 };
 
+const enviar = () => {$select.submit();
 $("#btnEnviar").click(enviar);
-    const enviar = () => {$select.submit();
+ 
 };
 })
 
