@@ -185,7 +185,7 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 4vmin;
+    font-size: 5vmin;
     padding: 100;
 }
 .ourMenu-content h2 {
@@ -512,13 +512,15 @@ img:hover {
     color:#fc036b;
     box-shadow: 2px 2px 5px black;
 }
-.ourMenu-content h2 {color:red; text-shadow: 3px 3px black;}
-.ourMenu-content h3 {color:red; text-shadow: 3px 3px black;}
-.ourMenu-content h4 {color:red; text-shadow: 3px 3px black;}
-.ourMenu-content { text-shadow: 3px 3px black;}
+.ourMenu-content h2 {color:red; text-shadow: 4px 4px black;}
+.ourMenu-content h3 {color:red; text-shadow: 4px 4px black;}
+.ourMenu-content h4 {color:red; text-shadow: 4px 4px black;}
+.ourMenu-content { text-shadow: 4px 4px black;}
 .ourMenu-content span { color: whitesmoke; }
 .ourMenu-content ul { color: whitesmoke;}
 
 .image-login {
     max-width: 50%;
 }
+.ourMenu-content {flex-basis: 40rem;
+flex-grow: 1;}
