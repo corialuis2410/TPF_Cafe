@@ -10,3 +10,10 @@ navToggle.addEventListener("click", () => {
     navToggle.setAttribute("aria-label", "Abrir menú");
   }
 });
+
+$(document).ready(function() {
+  $(".nav li a").on("click", function(){
+    $(".nav").find(".nav-menu-link_active").removeClass("nav-menu-link_active");
+    $(this).addClass("nav-menu-link_active");
+  });
+});
