@@ -12,6 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
 	 crossorigin="anonymous"></script>
+   <!-- Enlace a la Fuente de iconos de Bootstrap -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
    <link rel="stylesheet" href="../estilo.css">   
     <title>El Ultimo Cafe</title>
 </head>
@@ -29,7 +31,8 @@
         <li class="nav-menu-item"><a href="../index.html#ourMenu" class="nav-menu-link nav-link">Menu</a></li>
         <li class="nav-menu-item"><a href="../index.html#Promos" class="nav-menu-link nav-link">Promos</a></li>
         <li class="nav-menu-item"><a href="../index.html#contacto" class="nav-menu-link nav-link">Contacto</a></li>
-        <li class="nav-menu-item"><a href="login/login.html" class="nav-menu-link nav-link nav-link nav-menu-link_active">Login</a></li>
+        <li class="nav-menu-item"><a href="../index.html#staff" class="nav-menu-link nav-link">Staff</a></li>
+        <li class="nav-menu-item"><a href="../login/login.html" class="nav-menu-link nav-link nav-link nav-menu-link_active">Login</a></li>
     </ul>
 </nav>
 <br>
@@ -49,15 +52,15 @@
                 <input type="password" class="form-control" id="pwd" required placeholder="Password" name="pswd">
               </div>
               
-              <div class="form-check mb-3">
+              <div class="form-check mb-3"> 
                 <label class="form-check-label">
                   <input class="form-check-input" type="checkbox" name="remember"> Recuerdame
                 </label>
               </div>
           
               <div class="d-grid gap col-4">
-              <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
-              <button type="reset" class="btn btn-primary" id="btnLimpiar">Limpiar</button>
+              <button type="submit"  id="btnEnviar"><p>Enviar</p></button>
+              <button type="reset"  id="btnLimpiar"><p>Limpiar</p></button>
             </div>
 
             </form>
@@ -69,17 +72,22 @@
       </div>
       <footer class="footer">
         <footer class="footer-distributed">
-            <div class="footer-right">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="bi bi-github"></i></a>
-            </div>
-            <div class="footer-left">
-                <p>Desarrollador Web UTN - Comision 175 - Grupo 5 :: Noelia | Leonardo | Luis | Manuel | Lucio | Ruth ::</p>
-                <p> El Último Café &copy; 2023 </p>
-            </div>    
+          <div class="footer-right">
+            <!--Agregado 18-04-2023-->
+            <p>
+                Seguinos en:
+                <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://github.com/corialuis2410/TPF_Cafe" target="_blank"><i class="bi bi-github"></i></a>
+            </p>
+        </div>
+        <div class="footer-left">
+          <p> El Último Café  | Casa Central | Argentina &copy; 2023 - Todos los derechos reservados. </p>  
+          <p>Desarrollado por UTN - Comision 175 - Grupo 5 : Noelia | Leonardo | Luis | Manuel | Lucio | Ruth.</p>
+        </div>    
     </footer>
 
-    </body>
+   
 <script src="login.js"></script>
 <script src="../scripts.js"></script>
+</body>
 </html>

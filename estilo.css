@@ -259,6 +259,7 @@ input{
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
+    font-family: monospace;
   }
   
   
@@ -296,6 +297,7 @@ input{
     border-radius: 10px;  
     width: 420px;   
     cursor: pointer;
+    font-family:'Dancing Script', cursive;
   }
   
   
@@ -393,6 +395,13 @@ input{
   transition:all .25s;
 }
 
+/* Agregado 18-04-2023 */ 
+.footer-distributed .footer-right p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
@@ -414,7 +423,7 @@ input{
     position: absolute;
     top: 20px;
     left: 30px;
-}*/    
+    }*/    
 
     .menu-btn {
         display: block;
@@ -431,39 +440,35 @@ input{
         top: 60px;
         width: 100%;
         padding: 20px 0;
-  
         height: calc(100% - 60px);
         overflow-y: auto;
-    
         left: 100%;
         transition: left 0.3s;
       }
     
-      .nav-menu-item {
-        line-height: 70px;
-        
+    .nav-menu-item {
+        line-height: 70px;  
       }
     
-      .nav-menu-link:hover,
-      .nav-menu-link_active {
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
         background: none;
         color: #dd5a0e;;
       }
     
-      .nav-toggle {
+    .nav-toggle {
         display: block;
 
       }
     
-      .nav-menu_visible {
+    .nav-menu_visible {
         left: 0;
       }
     
-      .nav-toggle:focus:not(:focus-visible) {
+    .nav-toggle:focus:not(:focus-visible) {
         outline: none;
       }
 
-    
     .row {
         flex-direction: column;
     }
@@ -524,3 +529,13 @@ img:hover {
 }
 .ourMenu-content {flex-basis: 40rem;
 flex-grow: 1;}
+
+
+/* Agregado 18-04-2023*/
+
+.container {
+  font-family: 'Dancing Script', cursive;
+}
+.card {
+  padding-bottom: 80px;
+}
